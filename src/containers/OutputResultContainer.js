@@ -1,9 +1,9 @@
 import { connect } from 'react-redux'
 import OutputResult from '../components/OutputResultComponent'
 
-const processOutputResult = (input) => {
+const processOutputResult = (outputParagraph) => {
 	//console.log("processOutputResult_input(state): ", input)
-	return input.outputResult
+	return outputParagraph.outputResult
 }
 
 //map state to output prop
@@ -12,8 +12,8 @@ const mapStateToProps = (state) => ({
 })
 
 //connect container to output component
-const outputParagraph = connect(
+const OutputParagraph = connect(
   mapStateToProps
 )(OutputResult)
 
-export default outputParagraph
+export default OutputParagraph

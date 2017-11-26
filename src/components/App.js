@@ -5,8 +5,13 @@ import OutputParagraph from '../containers/OutputResultContainer'
 
 const App = () => (
 	<div>
-		<SubmitParagraph />
-		<OutputParagraph />
+	    <header className="App-header">
+	      <h1 className="App-title">GALAXY MERCHANT TRADE CALCULATOR</h1>
+	    </header>
+		<div>
+			<SubmitParagraph />
+			<OutputParagraph />
+		</div>
 	</div>
 )
 
