@@ -14,8 +14,8 @@ let SubmitParagraph = ({dispatch}) => {
 									 }
 									 dispatch(submitParagraph(inputParagraph.value))}}>
 
-				<textarea rows='25' cols='100' placeholder="Please input here" ref={node => {inputParagraph = node}}/>
-				<br/><br/>
+				<textarea rows='16' cols='100' placeholder="Please input here" ref={node => {inputParagraph = node}}/>
+				<br/>
 				<button type="submit"> Trade Calulation </button>
 				<br/>
 				<br/>

@@ -3,10 +3,7 @@ import PropTypes from 'prop-types'
 import Textarea from 'muicss/lib/react/textarea'
 
 const Paragraph = ({onClick, completed, text}) => (
-	<Textarea placeholder="Please input here" onClick={onClick}
-			style={{
-				textDecoration: completed ? 'line-through' : 'none'
-			}}>
+	<Textarea >
 		{text}
 	</Textarea >
 )

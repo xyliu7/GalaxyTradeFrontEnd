@@ -6,7 +6,7 @@ import OutputParagraph from '../containers/OutputResultContainer'
 const App = () => (
 	<div>
 	    <header className="App-header">
-	      <h1 className="App-title">GALAXY MERCHANT TRADE CALCULATOR</h1>
+	      <h1 className="App-title">GALAXY TRADE CALCULATOR</h1>
 	    </header>
 		<div>
 			<SubmitParagraph />

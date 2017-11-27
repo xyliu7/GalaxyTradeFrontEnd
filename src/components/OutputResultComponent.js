@@ -1,17 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Paragraph from './InputParagraphComponent'
+
 
 const OutputResult = ({ outputResult }) => (
-	<output placeholder="Result will be here" value={outputResult}>
+	<textarea  rows='11' cols='100' readong='readonly' value={outputResult}>
 		{outputResult}
-	</output>
+	</textarea>
 )
 
 //output is an array
 OutputResult.propTypes = {
   	outputResult: PropTypes.string.isRequired
 }
-
 
 export default OutputResult
