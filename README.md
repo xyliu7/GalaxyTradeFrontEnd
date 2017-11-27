@@ -3,8 +3,7 @@ This is a simple web frontend implemented in React and Redux, and it's used for 
 
 
 ## Getting Started
-This application is created by create-react-app, if you haven't install it, you can install now(not required). Notice that make sure have installed
-a recent version of [Node.js](https://nodejs.org/en/)
+This application is created by create-react-app, if you haven't install it, you can install now(not required). (Notice that make sure have installed a recent version of [Node.js](https://nodejs.org/en/))
 ``` npm install -g create-react-app ```
 
 Now, we can start to set up the project.
