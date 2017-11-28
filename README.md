@@ -1,4 +1,4 @@
-# GalaxyTradeServer
+# GalaxyTradFrontend
 This is a simple web frontend implemented in React and Redux, and it's used for resolve a simple calculation problem, it you are interested about the problem, I will post the problem at the end of this file.
 
 
